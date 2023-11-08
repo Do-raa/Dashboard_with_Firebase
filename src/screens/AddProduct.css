@@ -1,0 +1,34 @@
+.p-multiselect:hover {
+  border-color: #91dc29 !important;
+}
+
+.p-multiselect:not(.p-disabled).p-focus {
+    border-color: #cfff8d !important;
+    box-shadow: 0 0 0 0.2rem #91dc29 !important;
+  }
+  
+.p-multiselect {
+  border-radius: 7px;
+}
+
+.p-checkbox .p-checkbox-box.p-highlight {
+  border-color: #91dc29 !important;
+  background-color: #91dc29;
+}
+
+.p-checkbox .p-checkbox-box.p-highlight:hover {
+  background-color: #cfff8d !important;
+}
+
+.p-checkbox .p-checkbox-box:hover {
+  border-color: #91dc29 !important;
+}
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item.p-highlight {
+  border-color: #91dc29 !important;
+  background: #d4ff98 !important;
+}
+.p-multiselect-panel
+  .p-multiselect-items
+  .p-multiselect-item.p-highlight:focus {
+  border-color: #91dc29 !important;
+}
